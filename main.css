@@ -41,4 +41,25 @@
 .container .text #title {
   color: rgb(48, 47, 52);
   background-color: inherit;
+}
+
+@media (max-height: 704px) {
+  .container {
+    margin-top: 150px;
+  }
+}
+@media (max-height: 651px) {
+  .container {
+    margin-top: 100px;
+  }
+}
+@media (max-height: 601px) {
+  .container {
+    margin-top: 50px;
+  }
+}
+@media (max-height: 551px) {
+  .container {
+    margin-top: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
